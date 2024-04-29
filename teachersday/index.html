@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Merriweather:wght@300&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Merriweather:wght@300&family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Teachers Day</title>
+    <style>
+        body {
+            background: url('./assets/Twinkle\ Star@1x-0.7s-1536px-776px.png');
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: white;
+        }
+        .center-box {
+            padding: 20px;
+            border-radius: 10px;
+            display: none;
+            text-align: center;
+            color: black;
+        }
+        button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        .headings{
+                font-family: "Dancing Script", cursive;
+                font-optical-sizing: auto;
+                size: 1.7rem;
+                color: yellow;
+            }
+        .fonts{
+            font-family: "Pacifico", cursive;
+            font-optical-sizing: auto;
+            size: 1.2rem;
+            color: cyan;
+        }
+        .nofonts{
+            font-family: "Merriweather", serif;
+            font-optical-sizing: auto;
+            size: 1.2rem;
+            color: white;
+        }
+        .bg1{
+            background: url('./assets/IMG_1809.jpg');
+        }
+
+        .bg2{
+            background: url('./assets/Twinkle\ Star@1x-0.7s-1536px-776px.png');
+        }
+        .footer{
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="openbutton">
+        <button id="openButton" onclick="revealWishes()">Wishes from SWE -></button>
+    </div>
+    <div class="center-box" id="wishesBox">
+        <h1 class="headings">It Takes Big Heart to Teach Small Mind</h1>
+        <p>
+            <span class="fonts">TEACHER,</span><span class="nofonts">far than a job,<br>
+            More than a title, more than just pay,<br>
+            Teacher's heart forever lights the way. <br>
+            They gives their all, a love of pacific, <br>
+            Guilding minds, where knowledge they can reap <br>
+            Each child holds a promise, a future untold, <br>
+            A universe waiting, eagar to unfold, <br>
+            With patience and care, they plant the seed, <br>
+            Helping them grow, a legacy indeed. <br>
+            The lesson remains, through years come and go, <br>
+            But passion to teach, forever stands tall. <br>
+            Yes, big heart they must have, <br>
+            With kindness untold, nurturing dreams, <br>
+            Both young and old. <br>
+            One day of thanks? It's enough not, <br>
+            For lives dedicated, teaching us the universe. <br>
+            This message tings true, for teacher worldwide, <br>
+            A daily tribute, a reason to confide. <br>
+            Thank you for painting  with colors, <br>
+            For the hearts you're touched. <br>
+        
+            Happy Teachers Day, but everyday's yours, you see <br>
+            For the seeds you sow, shape us eternally <br></p></span>
+    </div><br>
+    <script>
+        function revealWishes() {
+            document.getElementById('wishesBox').style.display = 'block';
+            document.getElementById('openButton').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
